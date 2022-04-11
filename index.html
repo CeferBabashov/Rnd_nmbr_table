@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="_main.scss">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    
+    <style>
+        td {
+            width: 100px;
+            height: 100px;
+            font-weight: bold;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        table {
+            margin: auto;
+            margin-top: 100px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="timer">
+        <div class="show"></div>
+        <div class="timecontainer">
+            <div class="time">
+                <div class="switcher" type="minutes">
+                    <div class="up"></div>
+                    <div class="time"></div>
+                    <div class="down"></div>
+                </div>
+                <div class="switcher" type="none">
+                    <div class="up"></div>
+                    <div class="time">:</div>
+                    <div class="down"></div>
+                </div>
+                <div class="switcher" type="seconds">
+                    <div class="up"></div>
+                    <div class="time"></div>
+                    <div class="down"></div>
+                </div>
+            </div>
+        </div>
+        <div class="begin">Begin</div>
+    </div>
+
+
+    <table id="tbl" border="1" cellspacing="0">
+
+    </table>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   
+    <!--  timer link  -->
+    <!-- https://codepen.io/z-/details/PbwJRg -->  
+</body>
+
+</html>
